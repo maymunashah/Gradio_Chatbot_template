@@ -67,6 +67,8 @@ cd chatbot_project
 ### **2. Install Dependencies**
 Ensure Python 3.8 or later is installed. Then run:
 
+(make sure to create a venv and activate it by .\chatbot\scripts\activate or source chatbot/bin/activate and add the path of repo to pythonpaths)
+
 ```bash
 pip install -r requirements.txt
 ```
