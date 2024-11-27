@@ -59,26 +59,34 @@ chatbot_project/
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/chatbot_project.git
+git clone https://github.com/maymunashah/Gradio_Chatbot_template.git
 cd chatbot_project
 ```
 
+### **2. Create a virtual environment and activate it**
+for windows
+```bash
+python3 -m venv chatbot
+.\chatbot\scripts\activate
+```
 
-### **2. Install Dependencies**
+for linux
+```bash
+python3 -m venv chatbot
+source chatbot/bin/activat
+```
+### **3. Install Dependencies**
 Ensure Python 3.8 or later is installed. Then run:
-
-(make sure to create a venv and activate it by .\chatbot\scripts\activate or source chatbot/bin/activate and add the path of repo to pythonpaths)
-
 ```bash
 pip install -r requirements.txt
 ```
-### **3. Run the Application**
+### **4. Run the Application**
 ```bash
 python app/main.py
 ```
 This will launch the Gradio interface in your browser.
 
-### **4. Run Tests**
+### **5. Run Tests**
 To validate the application’s functionality, use:
 
 ```bash
